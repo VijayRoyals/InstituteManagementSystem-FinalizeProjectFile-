@@ -1,0 +1,71 @@
+/* Bank.css */
+
+.body-container {
+    margin: 0;
+    padding: 0;
+    background: url('https://bfsi.eletsonline.com/wp-content/uploads/2022/08/UPI.jpg') center/cover no-repeat fixed; /* Set online background image */
+    color: #161515;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size:'cover' ;
+    background-position: 'center';
+  }
+  
+
+.upi-payment-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:rgba(255, 255, 255, 0.5);
+  }
+  
+  .upi-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  

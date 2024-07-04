@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Student Details Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Student Details Form</h1>
+        <form id="studentForm">
+            <div class="form-group">
+                <label for="stu_id">Student ID:</label>
+                <input type="text" id="stu_id" name="stu_id" required>
+            </div>
+
+            <div class="form-group">
+                <label for="stu_name">Student Name:</label>
+                <input type="text" id="stu_name" name="stu_name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="course_id">Course ID:</label>
+                <input type="text" id="course_id" name="course_id" required>
+            </div>
+
+            <div class="form-group">
+                <label for="course_name">Course Name:</label>
+                <input type="text" id="course_name" name="course_name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="course_fees">Course Fees:</label>
+                <input type="text" id="course_fees" name="course_fees" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="payment_option">Payment Option:</label>
+                <select id="payment_option" name="payment_option">
+                    <option value="Full Pay">Full Pay</option>
+                    <option value="Installment">Installment</option>
+                </select>
+            </div>
+
+            <div id="installmentCountGroup" class="form-group ">
+                <label for="installment_count">Installment Count:</label>
+                <input type="text" id="installment_count" name="installment_count">
+            </div>
+
+            <div class="form-group">
+                <label for="payment_type">Payment Type:</label>
+                <input type="text" id="payment_type" name="payment_type">
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
